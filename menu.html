@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <style></style>
+  </head>
+  <body>
+    <!--Navigation bar-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--Hero Section-->
+    <div class="container py-5 my-3 justify-content-center">
+      <div class="col">
+        <img src="img/Filipino Food.jpg" class="img-fluid" />
+      </div>
+    </div>
+    <div class="container overlay"></div>
+    <!--Menu Section-->
+    <div class="container py-5">
+      <!--Navigation Tabs-->
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a
+            class="nav-link active"
+            id="nav-tab1"
+            data-bs-toggle="tab"
+            data-bs-target="#menu1"
+            type="button"
+            role="tab"
+            aria-controls="menu1"
+            aria-selected="true"
+            >Breakfast</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            id="nav-tab2"
+            data-bs-toggle="tab"
+            data-bs-target="#menu1"
+            type="button"
+            role="tab"
+            aria-controls="menu1"
+            >Main Dishes</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="nav-tab3" href="#">Side Dishes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="nav-tab4" href="#">Soups and Salads</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="nav-tab5" href="#">Sweets and Desserts</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="nav-tab6" href="#">Cocktails and Beverages</a>
+        </li>
+      </ul>
+      <!--End Nav Tab-->
+      <!--Tab Content-->
+      <div class="tab-content" id="nav-tabContent">
+        <!--1st Tab-->
+        <div
+          class="tab-pane fade show active"
+          id="menu1"
+          role="tabpanel"
+          aria-labelledby="nav-home-tab"
+          tabindex="0"
+        >
+          <div class="container">
+            <!--Row 1-->
+            <div class="row py-5">
+              <div class="col">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="img/champorado.webp"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Champorado</h5>
+                    <a href="#" class="btn btn-primary">See Recipe</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="img/lugaw-at-tokwa.webp"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Lugaw</h5>
+                    <a href="#" class="btn btn-primary">See Recipe</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="img/corned-beef-pandesal.webp"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Corned Beef Pandesal</h5>
+                    <a href="#" class="btn btn-primary">See Recipe</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="img/mango-bread-loaf.webp"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Mango Bread Loaf</h5>
+                    <a href="#" class="btn btn-primary">See Recipe</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Row 2-->
+            <div class="row py-5">
+              <div class="col">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="img/filipino-scrambled-eggs.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Filipino Scrambled Eggs</h5>
+                    <a href="#" class="btn btn-primary">See Recipe</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="img/tortang-tahong.webp"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Toratang Tahong</h5>
+                    <a href="#" class="btn btn-primary">See Recipe</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="img/beef-tapa.webp"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Beef tapa</h5>
+                    <a href="#" class="btn btn-primary">See Recipe</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="img/skinless-longganisa.webp"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Skinless Langgonisa</h5>
+                    <a href="#" class="btn btn-primary">See Recipe</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--End-->
+          </div>
+        </div>
+        <!--2nd Tab-->
+        <div
+          class="tab-pane fade"
+          id="menu2"
+          role="tabpanel"
+          aria-labelledby="nav-profile-tab"
+          tabindex="0"
+        >
+          <!--End 2nd Tab-->
+        </div>
+        <!--3rd Tab-->
+        <div
+          class="tab-pane fade"
+          id="menu3"
+          role="tabpanel"
+          aria-labelledby="nav-contact-tab"
+          tabindex="0"
+        >
+          ...
+        </div>
+        <!--4th Tab-->
+        <div
+          class="tab-pane fade"
+          id="menu4"
+          role="tabpanel"
+          aria-labelledby="nav-disabled-tab"
+          tabindex="0"
+        >
+          ...
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
